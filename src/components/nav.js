@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from 'react';
 import { Link } from 'gatsby';
 import Helmet from 'react-helmet';
@@ -293,12 +294,12 @@ class Nav extends Component {
               {isMounted && (
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                   <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
-                    <StyledResumeButton
+                    {/* <StyledResumeButton
                       href="/resume.pdf"
                       target="_blank"
                       rel="nofollow noopener noreferrer">
                       Resume
-                    </StyledResumeButton>
+                    </StyledResumeButton> */}
                   </div>
                 </CSSTransition>
               )}

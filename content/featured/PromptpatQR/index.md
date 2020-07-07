@@ -1,13 +1,12 @@
 ---
-date: '2020-01-10'
+date: '3'
 title: 'PromptPay QR'
-external: 'https://play.google.com/store/apps/details?id=com.wiwat.promptpay&hl=th'
+cover: './banner_1024_500.jpg'
+external: 'https://play.google.com/store/apps/details?id=com.wiwat.promptpay'
 tech:
   - Android
   - QR-Code
   - PromptPay
-  - Firebase
-company: ''
 showInProjects: true
 ---
 
