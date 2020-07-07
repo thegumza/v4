@@ -1,56 +1,56 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Wiwat Fongkan | Android Developer',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'Wiwat Fongkan is a Android Developer based in Bangkok, TH who specializes in building (and occasionally designing) exceptional mobile apps, applications, and everything in between.',
   siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Wiwat Fongkan, Wiwat, Tek, Android Developer, back-end engineer, mobile developer, javascript, bangkok, thailand',
+  siteUrl: 'https://wiwat.app',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  name: 'Wiwat Fongkan',
+  location: 'Android Developer, TH',
+  email: 'wiwat.fongkan@gmail.com',
+  github: 'https://github.com/thegumza',
+  twitterHandle: '@thegumza',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/thegumza',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
+      url: 'https://www.linkedin.com/in/thegumza',
     },
     {
       name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://codepen.io/thegumza',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/thegumza',
     },
     {
       name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      url: 'https://twitter.com/thegumza',
     },
   ],
 
   navLinks: [
     {
-      name: 'About',
+      name: 'เกี่ยวกับ',
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'ประสบการณ์',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'ผลงาน',
       url: '/#projects',
     },
     {
-      name: 'Contact',
+      name: 'ติดต่อ',
       url: '/#contact',
     },
   ],

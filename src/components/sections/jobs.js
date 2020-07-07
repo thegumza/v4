@@ -70,7 +70,7 @@ const StyledTabButton = styled.button`
   border-left: 2px solid ${colors.lightestNavy};
   text-align: left;
   white-space: nowrap;
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.Calibre};
   font-size: ${fontSizes.smish};
   color: ${props => (props.isActive ? colors.green : colors.slate)};
   ${media.tablet`padding: 0 15px 2px;`};
@@ -143,7 +143,7 @@ const StyledCompany = styled.span`
   color: ${colors.green};
 `;
 const StyledJobDetails = styled.h5`
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.Calibre};
   font-size: ${fontSizes.smish};
   font-weight: normal;
   letter-spacing: 0.05em;
@@ -195,7 +195,7 @@ const Jobs = ({ data }) => {
 
   return (
     <StyledContainer id="jobs" ref={revealContainer}>
-      <Heading>Where I&apos;ve Worked</Heading>
+      <Heading>ประสบการณ์ทำงาน</Heading>
       <StyledTabs>
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyPressed(e)}>
           {data &&

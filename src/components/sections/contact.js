@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
 import sr from '@utils/sr';
@@ -18,7 +19,7 @@ const StyledHeading = styled(Heading)`
   display: block;
   color: ${colors.green};
   font-size: ${fontSizes.md};
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.Calibre};
   font-weight: normal;
   margin-bottom: 20px;
   justify-content: center;
@@ -51,7 +52,7 @@ const Contact = ({ data }) => {
 
   return (
     <StyledContainer id="contact" ref={revealContainer}>
-      <StyledHeading>What&apos;s Next?</StyledHeading>
+      {/* <StyledHeading>What&apos;s Next?</StyledHeading> */}
 
       <StyledTitle>{title}</StyledTitle>
 

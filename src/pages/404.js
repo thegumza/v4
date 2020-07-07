@@ -13,7 +13,7 @@ const StyledMainContainer = styled(Main)`
 `;
 const StyledTitle = styled.h1`
   color: ${colors.green};
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.Calibre};
   font-size: 12vw;
   line-height: 1;
   ${media.bigDesktop`font-size: 200px;`}

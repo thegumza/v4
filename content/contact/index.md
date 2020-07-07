@@ -1,6 +1,6 @@
 ---
-title: 'Get In Touch'
-buttonText: 'Say Hello'
+title: 'ติดต่อ'
+buttonText: 'ติดต่อผ่านอีเมล์'
 ---
 
-Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+หากต้องการติดต่องาน สนใจพัฒนาแอพพลิเคชั่นบน Android หรือ Web Front-End Back-End สามารถติดต่อเพื่อสอบถามได้ตลอด ขอบคุณครับ

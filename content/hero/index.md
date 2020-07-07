@@ -1,8 +1,8 @@
 ---
-title: 'Hi, my name is'
-name: 'Brittany Chiang'
-subtitle: 'I build things for the web.'
-buttonText: 'Get In Touch'
+title: 'สวัสดีครับ'
+name: 'วิวัฒน์ ฟองการ'
+subtitle: 'Android Developer'
+buttonText: 'ติดต่อผ่านอีเมล์'
 ---
 
-I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.
+สวัสดีครับผม "เต็ก" Android Developer ตอนนี้พยายามสร้างเว็บไซต์เพื่อแสดงผลงานที่เคยทำมาตลอดระยะเวลา 5 ปีของการเริ่มทำงาน : )

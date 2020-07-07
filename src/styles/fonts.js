@@ -1,29 +1,9 @@
 import { css } from 'styled-components';
 
-import CalibreLightTTF from '@fonts/Calibre/Calibre-Light.ttf';
-import CalibreLightWOFF from '@fonts/Calibre/Calibre-Light.woff';
-import CalibreLightWOFF2 from '@fonts/Calibre/Calibre-Light.woff2';
-import CalibreLightItalicTTF from '@fonts/Calibre/Calibre-LightItalic.ttf';
-import CalibreLightItalicWOFF from '@fonts/Calibre/Calibre-LightItalic.woff';
-import CalibreLightItalicWOFF2 from '@fonts/Calibre/Calibre-LightItalic.woff2';
-import CalibreRegularTTF from '@fonts/Calibre/Calibre-Regular.ttf';
-import CalibreRegularWOFF from '@fonts/Calibre/Calibre-Regular.woff';
-import CalibreRegularWOFF2 from '@fonts/Calibre/Calibre-Regular.woff2';
-import CalibreRegularItalicTTF from '@fonts/Calibre/Calibre-RegularItalic.ttf';
-import CalibreRegularItalicWOFF from '@fonts/Calibre/Calibre-RegularItalic.woff';
-import CalibreRegularItalicWOFF2 from '@fonts/Calibre/Calibre-RegularItalic.woff2';
-import CalibreMediumTTF from '@fonts/Calibre/Calibre-Medium.ttf';
-import CalibreMediumWOFF from '@fonts/Calibre/Calibre-Medium.woff';
-import CalibreMediumWOFF2 from '@fonts/Calibre/Calibre-Medium.woff2';
-import CalibreMediumItalicTTF from '@fonts/Calibre/Calibre-MediumItalic.ttf';
-import CalibreMediumItalicWOFF from '@fonts/Calibre/Calibre-MediumItalic.woff';
-import CalibreMediumItalicWOFF2 from '@fonts/Calibre/Calibre-MediumItalic.woff2';
-import CalibreSemiboldTTF from '@fonts/Calibre/Calibre-Semibold.ttf';
-import CalibreSemiboldWOFF from '@fonts/Calibre/Calibre-Semibold.woff';
-import CalibreSemiboldWOFF2 from '@fonts/Calibre/Calibre-Semibold.woff2';
-import CalibreSemiboldItalicTTF from '@fonts/Calibre/Calibre-SemiboldItalic.ttf';
-import CalibreSemiboldItalicWOFF from '@fonts/Calibre/Calibre-SemiboldItalic.woff';
-import CalibreSemiboldItalicWOFF2 from '@fonts/Calibre/Calibre-SemiboldItalic.woff2';
+import CalibreLightTTF from '@fonts/NotoSansThai-unhinted/NotoSansThai-Light.ttf';
+import CalibreRegularTTF from '@fonts/NotoSansThai-unhinted/NotoSansThai-Regular.ttf';
+import CalibreMediumTTF from '@fonts/NotoSansThai-unhinted/NotoSansThai-Medium.ttf';
+import CalibreSemiboldTTF from '@fonts/NotoSansThai-unhinted/NotoSansThai-Bold.ttf';
 
 import SFMonoRegularTTF from '@fonts/SFMono/SFMono-Regular.ttf';
 import SFMonoRegularWOFF from '@fonts/SFMono/SFMono-Regular.woff';
@@ -47,61 +27,49 @@ import SFMonoSemiboldItalicWOFF2 from '@fonts/SFMono/SFMono-SemiboldItalic.woff2
 const FontFaces = css`
   @font-face {
     font-family: 'Calibre';
-    src: url(${CalibreLightWOFF2}) format('woff2'), url(${CalibreLightWOFF}) format('woff'),
-      url(${CalibreLightTTF}) format('truetype');
+    src: url(${CalibreLightTTF}) format('truetype');
     font-weight: 300;
     font-style: normal;
   }
   @font-face {
     font-family: 'Calibre';
-    src: url(${CalibreLightItalicWOFF2}) format('woff2'),
-      url(${CalibreLightItalicWOFF}) format('woff'),
-      url(${CalibreLightItalicTTF}) format('truetype');
+    src: url(${CalibreLightTTF}) format('truetype');
     font-weight: 300;
     font-style: italic;
   }
   @font-face {
     font-family: 'Calibre';
-    src: url(${CalibreRegularWOFF2}) format('woff2'), url(${CalibreRegularWOFF}) format('woff'),
-      url(${CalibreRegularTTF}) format('truetype');
+    src: url(${CalibreRegularTTF}) format('truetype');
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: 'Calibre';
-    src: url(${CalibreRegularItalicWOFF2}) format('woff2'),
-      url(${CalibreRegularItalicWOFF}) format('woff'),
-      url(${CalibreRegularItalicTTF}) format('truetype');
+    src: url(${CalibreRegularTTF}) format('truetype');
     font-weight: normal;
     font-style: italic;
   }
   @font-face {
     font-family: 'Calibre';
-    src: url(${CalibreMediumWOFF2}) format('woff2'), url(${CalibreMediumWOFF}) format('woff'),
-      url(${CalibreMediumTTF}) format('truetype');
+    src: url(${CalibreMediumTTF}) format('truetype');
     font-weight: 500;
     font-style: normal;
   }
   @font-face {
     font-family: 'Calibre';
-    src: url(${CalibreMediumItalicWOFF2}) format('woff2'),
-      url(${CalibreMediumItalicWOFF}) format('woff'),
-      url(${CalibreMediumItalicTTF}) format('truetype');
+    src: url(${CalibreMediumTTF}) format('truetype');
     font-weight: 500;
     font-style: italic;
   }
   @font-face {
     font-family: 'Calibre';
-    src: url(${CalibreSemiboldWOFF2}) format('woff2'), url(${CalibreSemiboldWOFF}) format('woff'),
-      url(${CalibreSemiboldTTF}) format('truetype');
+    src: url(${CalibreSemiboldTTF}) format('truetype');
     font-weight: 600;
     font-style: normal;
   }
   @font-face {
     font-family: 'Calibre';
-    src: url(${CalibreSemiboldItalicWOFF2}) format('woff2'),
-      url(${CalibreSemiboldItalicWOFF}) format('woff'),
-      url(${CalibreSemiboldItalicTTF}) format('truetype');
+    src: url(${CalibreSemiboldTTF}) format('truetype');
     font-weight: 600;
     font-style: italic;
   }

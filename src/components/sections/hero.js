@@ -20,7 +20,7 @@ const StyledOverline = styled.h1`
   color: ${colors.green};
   margin: 0 0 20px 3px;
   font-size: ${fontSizes.md};
-  font-family: ${fonts.SFMono};
+  font-family: ${fonts.Calibre};
   font-weight: normal;
   ${media.desktop`font-size: ${fontSizes.sm};`};
   ${media.tablet`font-size: ${fontSizes.smish};`};
@@ -83,7 +83,7 @@ const Hero = ({ data }) => {
   );
   const five = () => (
     <div style={{ transitionDelay: '500ms' }}>
-      <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
+      <StyledEmailLink href={`mailto:${email}`}>ติดต่อผ่านอีเมล์</StyledEmailLink>
     </div>
   );
 

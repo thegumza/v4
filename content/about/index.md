@@ -1,19 +1,17 @@
 ---
-title: 'About Me'
+title: 'ประวัติ'
 avatar: './me.jpg'
 skills:
-  - JavaScript (ES6+)
-  - HTML & (S)CSS
-  - React
+  - Android (Java, Kotlin)
+  - Nodejs
+  - Database (Mysql, Mongodb)
   - Vue
-  - Node.js
-  - WordPress
 ---
 
-Hello! I'm Brittany, a software engineer based in Boston, MA.
+สวัสดีครับผมชื่อ เต็ก ตอนนี้ผมทำงานอยู่กรุงเทพมหานครฯ
 
-I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+ตอนนี้ผมเป็น Outsource อยู่ในบริษัทโทรคมนาคมแห่งหนึ่ง ในตำแหน่ง Android Developer
 
-Shortly after graduating from [Northeastern University](https://www.ccis.northeastern.edu/), I joined the engineering team at [Upstatement](https://www.upstatement.com/) where I work on a wide variety of interesting and meaningful projects on a daily basis.
+รับหน้าที่พัฒนาแอพพลิเคชั่น ซึ่งส่วนใหญ่เกี่ยวกับ Smart IOT ต่างๆ โดยใช้ Mobile Application เป็นตัวควบคุม เพื่อสร้างประสบการณ์ใหม่ๆให้กับลูกค้า
 
-Here are a few technologies I've been working with recently:
+และนี้เป็นส่วนหนึ่งของ เทคโนโลยีที่ใช้ในการพัฒนา:
